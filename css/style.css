@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 40vh;
+    grid-auto-rows: 40vh;
+    grid-gap: 25px 25px;
+    transition: all .3s ease-out;
+}
+.grid--list{
+    display: grid;
+    grid-template-columns: repeat(25%);
+    grid-template-rows:  15vh;
+    grid-auto-rows: 15vh;
+    grid-gap: 5px 40px;
+    transition: all .3s ease-out;
+}
+.grid--list .grid--child, .grid .grid--child{
+    background-color: rgb(207, 206, 206);
+    display: flex;
+    justify-content: center;
+}
+.menu-buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.menu-buttons .menu-buttons__option{
+    padding: 1.5em;
+}
