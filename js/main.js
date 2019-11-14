@@ -1,13 +1,13 @@
 var grid = document.getElementById("grid");
 grid.addEventListener("click", function(){
-   var holi = document.querySelector(".grid--list");
-   holi.classList.remove("grid--list");
-   holi.classList.add("grid");
+   var list_grid = document.querySelector(".grid__list");
+   list_grid.classList.remove("grid__list");
+   list_grid.classList.add("grid");
 });
 
 var list = document.getElementById("list");
 list.addEventListener("click",function(){
-    var holi = document.querySelector(".grid");
-    holi.classList.add("grid--list");
-    holi.classList.remove("grid")
+    var grid_l = document.querySelector(".grid");
+    grid_l.classList.add("grid__list");
+    grid_l.classList.remove("grid")
 });
